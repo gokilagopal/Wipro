@@ -1,0 +1,83 @@
+#phy =int(input("enter the physics mark"))
+#chem =int(input("enter the chemistry mark"))
+#math =int(input("enter the Math mark"))
+#if all sub mark is greater than or equal to 40 so he/she pass else fail
+#if phy>=40 and chem>=40 and math>=40:
+ #   print("pass")
+#else:
+ #   print("Fail")
+
+#print("\n")
+#difference betwwen /(division) and //(flow division)
+#print(5/2) #output will be 2.5 gives you a exact value
+#print(5//2) #output will be 2 this doesnot give you a decimal point 
+
+#reverse a number without using a loop
+#_________________________________________ 
+#num=123
+#print(num)
+#a= num%10 #a=3
+#num=num//10  #num=12
+#b=num%10
+#num=num//10 #num=1
+#c=num
+#reverse= (a*100)+(b*10)+c
+#print("the reversed number",reverse)
+#_______________________________________
+#val=123456
+#print("Before Reversing:",val)
+#a= val%10 #6
+#val=val//10 #12345
+#b= val%10 #5
+#val=val//10 #1234
+#c= val%10 #4
+#val=val//10 #123
+#d= val%10 #3
+#val=val//10 #12
+#e= val%10 #2
+#val=val//10 #1
+#f=val
+#reverse=a*100000+(b*10000)+(c*1000)+(d*100)+(e*10)+f
+#print("the reversed number",reverse)
+
+#Amount=int(input("please enter amount for withdraw: "))
+#print("100 notes=" ,Amount//100)
+#print("50 notes=" ,(Amount%100)// 50)
+#print("20 notes=" ,((Amount%100)%50)// 20)
+#print("10 notes: ", (amount%20)//10)
+#print("5 notes: ", (amount%10)//5)
+#print("Two notes: ", (amount%5)//2)
+
+#s= "help4code is a best platform for practicing programming"
+#print(s.find("help4code"))
+#print(s.find("python")) #if there is no word present in the variable naa it will return -1
+#print(s.find("programming"))
+#print(s.find("best"))
+
+#str="Gokila","Gopal","Sarojini"
+#m= '|'.join(str)
+#print(m)
+
+#str2= "Python is a High level programming language"
+#print(str2.lower())
+#print(str2.upper())
+#print(str2.swapcase())
+#print(str2.title())
+#print(str2.capitalize())
+
+phy= 75
+chem =85
+math=90
+print("physics={} math={} chemistry{}".format(phy,math,chem))
+print("physics={0} math={1} chemistry{2}".format(phy,math,chem))
+print("physics={x} math={b} chemistry{c}".format(x=phy,b=math,c=chem))
+total= phy+chem+math
+print("total marks",f"{total}")
+print("Roll No=","7".zfill(4))
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+#memory management 
+math= 50
+phy=50
+english=70
+tamil=70
+chem=50
+print(id(math)) #the subject mark  is same it share the same memory address
+print(id(phy))
+print(id(chem))
+print(id(english))
+print(id(tamil))
+print("\n")
+#operators
+
+x=100
+y=10
+print(id(x))
+print(id(y))
+print(x is y )
+print(x is not y)
+
+print("\n")
+
+a=100
+b=100
+print(id(a))
+print(id(b))
+print(a is b)
+print(a is not b)
+print("\n")
+
+
+#membership Operator
+name= "StringForString"
+print('F'in name)
+print("c"not in name )
+print("z" in name)
+print("i"not in name)
+print("\n")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

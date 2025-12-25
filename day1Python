@@ -1,0 +1,295 @@
+# to select all the content in the file and put in command 
+#select all press ctrl+\ 
+#to unchange the command use ctrl+\
+
+name='Gokila'
+int_var = 30
+pi = 3.14
+result = True 
+print (type(name))
+print (type(int_var))
+print (type(pi))
+print (type(result))
+print("\n")
+
+name='Gokila'
+int_var = 30
+pi = 3.14
+result = True 
+print (id(name))
+print (id(int_var))
+print (id(pi))
+print (id(result))
+print("\n")
+
+# swapping a two number with 3rd variable
+var1= 50
+var2= 100
+print(" The value of Var1 and var2 before swapping: ", var1,var2)
+temp = var1
+var1= var2
+var2= temp
+print(" The value of Var1 and var2 After swapping: ", var1,var2)
+print("\n")
+#without using 3rd variable 
+var3= 100
+var4=200
+print(" The value of Var3 and var4 before swapping: ", var3,var4)
+var3= var3+var4
+var4=var3-var4
+var3= var3-var4
+print(" The value of Var3 and var4 After swapping: ", var3,var4)
+
+print("\n")
+
+math =50
+chem= 75
+phy= 85
+total=math+phy+chem
+percentage=total/3.0
+print("Total Marks", total)
+print("Total percentage:", percentage)
+
+print("\n")
+
+#simpleInterest rate
+
+priniciple_amount= 1000000
+rateOfInterest= 20
+time= 1
+si=priniciple_amount*rateOfInterest*time/100
+print("The interest amount =",si)
+print("\n")
+
+#calculate area of circle
+
+pi=3.14
+radius= 20
+areaOfCircle= pi*radius*radius
+print("The area of circle is:",areaOfCircle)
+print("\n")
+
+#calulate the circumference of the circle
+pi=3.14
+radius= 20
+circumference=2*pi*radius
+print("circumference of the circle is:", circumference)
+print("\n")
+
+#centigrade temperature to fahrenhit
+
+# covert inches into centimeters
+
+height=17
+inches=height*12
+cm=inches*2.54
+print("inch",inches)
+print("The value of cm",cm)
+print("\n")
+
+#slicing of string elements
+
+name='GokilaGopal' #sequence of chracters
+
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+print("\n")
+print(name[-1])
+print(name[-2])
+print(name[-3])
+print("\n")
+print(name[0:6])
+print(name[0:]) # it will print the entire string ,coz not stop point
+print("\n")
+print(name[:-1])
+print("\n")
+print(name[0:10:2]) #it will increment the value by 2 , here 0 to 10 is the given index 
+#after printing 0th value it will increment 2 and the value is (k) after it will increment 2 until the end of index 
+print(name[:-1])#this one leave -1 so output will be GokilaGopa
+print(name[-1:])
+print("\n")
+print(name[-1:-7])#the output is not visible 
+print(name[-1:-6:-1]) #you need to tell how much it shold increment 
+print(name[: :-1])
+print("\n")
+print('GokilaGopal'.isalnum()) #check whether it is a alphanumeric if returns true
+print('GokilaGopal'.isalpha())#check is the string is aplha
+print('GokilaGopal'.isdigit())#check with the number
+print('gokilagopal'.islower())#check with lowercase
+print(''.islower()) 
+print('GOKILAGOPAL'.isupper())
+print('Gokila Gopal Marappan'.istitle())#checks with the camel case(the first letter of evryword should be caps)
+print("  ".isspace())
+print('13456789'.isdigit())
+print('1234jhk'.isdigit())
+
+
+print("\n")
+print("GokilaGopal".find("G")) #returns the index of the first occurrence
+print('GokilaGopal'.index("o"))#.index() also returns the first occurrence index
+print('GokilaGopal'.count("l"))#returns how many times the character appears
+
+#Type casting
+print(2+2)
+value1=5
+value2=5
+print("value1 and value2:",value1+value2)
+value3='5'
+value4='5'
+print("value3 and value4:",value3+value4) #here its is in the string so it is 55 (basically concatenation)
+
+a= int(input("enter a value "))
+b= int(input("eter a 2nd value "))
+print("the value of a and b:",a+b)
+print("\n")
+a= input("enter a value ")
+b= input("eter a 2nd value ")
+print("the value of a and b:",a+b)#by default it takes input as a string 
+print("\n")
+
+print(int(3.14))
+#print(int(10+5j))
+print(int(True))
+print(int(False))
+print(int())
+
+
+print(float(3))
+#print(float(5+3i))
+print(float(True))
+print(float(False))
+print(float(4.22))
+print(float("4"))
+#print(float("name"))
+print("\n")
+print(bool(0))
+print(bool(15))
+print(bool(3.14))
+print(bool(0.0))
+print(bool(1+2j))
+print(bool(0+0j))
+print(bool(-1))
+print(bool(False))
+print(bool(True))
+print(bool(" "))
+print(bool("Gokila"))
+print("\n")
+
+print(complex(3))
+print(complex(12.5))
+print(complex(True))
+print(complex(False))
+print(complex("5"))
+print(complex("5.6"))
+#print(complex("name"))
+print(complex(5,-3))
+print(complex(True,False))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
